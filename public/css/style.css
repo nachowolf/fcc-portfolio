@@ -1,0 +1,31 @@
+body{
+    height:5000px;
+}
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.4);
+ }
+
+ .fa-arrow-alt-circle-right{
+     margin-left: 10px;
+     animation-name: hoverArrow;
+  animation-duration: 2s;
+  transition:linear;
+  animation-iteration-count: infinite;
+ }
+
+ .button-title:hover .fa-arrow-alt-circle-right{
+    margin-left: 15px;
+    transition: 0.5s linear;
+    animation-name: hoverArrow;
+    animation-delay: 10s;
+}
+
+ 
+
+ @keyframes hoverArrow{
+     from{ margin-left: 10px;}
+     50%{ margin-left: 15px;}
+     to{ margin-left: 10px;}
+ 
+ }
