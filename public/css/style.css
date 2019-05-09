@@ -1,6 +1,4 @@
-body{
-    height:5000px;
-}
+
 
 .navbar{
     background: rgba(255, 255, 255, 0.8);
@@ -65,3 +63,4 @@ section{
 .card-title{
     text-decoration: underline;
 }
+
